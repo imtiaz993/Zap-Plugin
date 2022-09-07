@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "ZapPlugin";
+  src: "../assets/site.otf";
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  padding: 0px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+body {
+  font-family: "ZapPlugin";
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.rightDot,
+.leftDot {
+  position: absolute;
+  background: #171517;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  top: 18px;
+}
+.leftDot {
+  left: 18px;
+}
+.rightDot {
+  right: 18px;
+}
+.container {
+  background-color: #171517;
+  width: 94%;
+  margin: 40px auto;
+  border-radius: 28px;
+}
+.navbar,
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0px auto;
+}
+.navbarWrapper {
+  padding-top: 40px;
+}
+.navbar {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  color: #171517;
+}
+.logo {
+  cursor: pointer;
+}
+.navbar button {
+  padding: 15px 40px;
+  border: none;
+  background: #171517;
+  color: #fff;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.hero div {
+  width: 45%;
+}
+
+.hero h1,
+p {
+  color: #fff;
+  margin: 0px auto;
+}
+.hero h1 {
+  margin-top: 100px;
+  font-size: 56px;
+  line-height: 4.2rem;
+}
+.hero p {
+  margin-top: 20px;
+  line-height: 1.7rem;
+  font-size: 16px;
+}
+@media (max-width: 1130px) {
+  .hero h1 {
+    margin-top: 70px;
+    font-size: 36px;
+    line-height: 3rem;
+  }
+  .hero p {
+    margin: 20px 0px 70px;
+    line-height: 1.5rem;
+    font-size: 16px;
+  }
+}
+@media (max-width: 919px) {
+  .container {
+    text-align: center;
+  }
+  .navbar,
+  .hero {
+    width: 90%;
+  }
+  .navbarWrapper {
+    padding-top: 30px;
+  }
+  .navbar {
+    padding: 10px;
+  }
+  .logo {
+    cursor: pointer;
+  }
+  .navbar button {
+    padding: 10px 20px;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero h1 {
+    margin-top: 50px;
+    font-size: 36px;
+    line-height: 3rem;
+  }
+  .hero p {
+    margin: 20px 0px 0px;
+    line-height: 1.5rem;
+    font-size: 16px;
+  }
+  .hero div {
+    width: 100%;
+  }
+}
+@media (max-width: 639px) {
+  .navbarWrapper {
+    padding-top: 20px;
+  }
+  .container {
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 0px;
+    text-align: center;
+  }
+  .rightDot,
+  .leftDot {
+    display: none;
+  }
+}
