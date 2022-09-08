@@ -20,21 +20,6 @@ body {
   font-family: myFirstFont;
 }
 
-.rightDot,
-.leftDot {
-  position: absolute;
-  background: #171517;
-  border-radius: 100%;
-  width: 12px;
-  height: 12px;
-  top: 8px;
-}
-.leftDot {
-  left: 8px;
-}
-.rightDot {
-  right: 8px;
-}
 .container {
   background-color: #171517;
   width: 97%;
@@ -203,9 +188,5 @@ body {
     margin: 0px auto;
     border-radius: 0px;
     text-align: center;
-  }
-  .rightDot,
-  .leftDot {
-    display: none;
   }
 }
