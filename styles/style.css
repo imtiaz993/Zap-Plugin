@@ -20,10 +20,6 @@ body {
   font-family: myFirstFont;
 }
 
-h1,
-p {
-  letter-spacing: 2px;
-}
 .rightDot,
 .leftDot {
   position: absolute;
@@ -198,10 +194,6 @@ p {
   }
 }
 @media (max-width: 639px) {
-  h1,
-  p {
-    letter-spacing: 1px;
-  }
   .navbarWrapper {
     padding-top: 20px;
   }
